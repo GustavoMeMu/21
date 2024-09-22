@@ -57,4 +57,4 @@ function updateRotation() {
 createField(rows, cols);
 
 // Actualizar la rotación cada 5 segundos
-setInterval(updateRotation, 55);
+setInterval(updateRotation, 50);
