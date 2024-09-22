@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: green; /* Fondo verde */
+    background-color: rgb(9, 95, 9); /* Fondo verde */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,10 +11,13 @@ body {
 
 h1 {
     color: white; /* Color del texto */
-    position: absoute;
-    margin-left: 200%; /* Posicionamiento absoluto */
+    position: absolute; /* Corrección aquí */
+    top: 44%; /* Centrado vertical */
+    left: 50%; /* Centrado horizontal */
+    transform: translate(-50%, -50%); /* Ajuste para centrar exactamente */
     font-size: 3rem; /* Tamaño de fuente */
 }
+
 canvas {
     display: block;
 }
